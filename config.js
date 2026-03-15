@@ -1,0 +1,26 @@
+// Медицинский профиль — Данила Шпак
+module.exports = {
+  diabetesType: 1,
+  insulinShort: 'НовоРапид',
+  insulinLong: 'Туджео',
+  insulinLongDose: 19,
+  targetGlucose: 7.0,
+  corridorMin: 6.0,
+  corridorMax: 7.5,
+  isf: 2.2,
+  icrMorning: 1.3,
+  icrEvening: 1.05,
+  morningEnd: 14,
+  hypoTreatment: 'Декстроза (гель HypoFree)',
+  hypoForbidden: 'Протеиновые батончики — ЗАПРЕЩЕНЫ для купирования гипо',
+  enzymes: 'Микразим 25000',
+  acidity: 'Бетаин HCl',
+  fitnessGoal: 'Наращивание мышечной массы',
+  currentLifts: {
+    lateralRaises: '7 кг гантели',
+    benchPress: '50 кг x 10',
+    backRow: '50 кг x 12',
+    shoulderPress: '15 кг гантели',
+  },
+  exerciseDetailLevel: 'вес, повторения, техника подробно',
+};
